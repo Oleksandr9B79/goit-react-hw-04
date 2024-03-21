@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 164px;
+  height: 110px;
+  flex-shrink: 0;
+  cursor: pointer;
+
+  @media (min-width: 920px) {
+    width: 202px;
+    height: 135px;
+  }
+  @media (min-width: 1180px) {
+    width: 266px;
+    height: 150px;
+  }
+  @media (min-width: 1440px) {
+    width: 332px;
+    height: 190px;
+  }
+}
