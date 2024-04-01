@@ -1,8 +1,8 @@
+/* eslint-disable react/prop-types */
 import ReactModal from "react-modal";
 import css from "./ImageModal.module.css";
 
 ReactModal.setAppElement(document.getElementById("root"));
-
 function ImageModal({ isOpen = false, photo, onChange }) {
   return (
     <ReactModal
