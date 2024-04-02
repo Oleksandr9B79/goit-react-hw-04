@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import css from "./LoadMoreBtn.module.css";
 
 function LoadMoreBtn({ onClick, children }) {

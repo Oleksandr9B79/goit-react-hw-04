@@ -1,5 +1,5 @@
 .hat {
-  background-color: rgb(229, 130, 130);
+  background-color: rgb(226, 131, 131);
   margin-bottom: 20px;
   height: 60px;
   display: flex;
@@ -9,19 +9,21 @@
 
 .form {
   position: relative;
+  /* height: 22px;
+  max-width: 400px; */
   width: 260px;
 }
 
 .input {
   width: 100%;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid DimGrey;
 }
 
 .input:hover,
 .input:focus {
-  outline: rgb(38, 34, 34);
-  border-color: rgb(160, 123, 123);
+  outline: DimGrey;
+  border-color: DimGrey;
 }
 
 .btn {

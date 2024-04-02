@@ -4,7 +4,7 @@
   border-radius: 8px;
   color: white;
   background-color: DimGray;
-  padding: 9px 16px;
+  padding: 8px 16px;
 }
 
 button {
@@ -18,10 +18,10 @@ button {
 }
 
 button:hover {
-  border-color: #888;
+  border-color: #754c4c;
   background-color: Silver;
 }
 button:focus,
 button:focus-visible {
-  outline: 1px solid #888;
+  outline: 1px solid #855454;
 }
